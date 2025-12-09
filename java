@@ -1,3 +1,3 @@
-function Recherche(){
+function recherche(){
     alert("ca marche")
 }
