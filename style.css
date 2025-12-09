@@ -1,7 +1,9 @@
-.containeur {
-    display: flex;
-    flex-wrap: wrap;  /* permet aux blocs de passer Ã  la ligne */
-    gap: 20px;        /* espace entre les blocs */
+.entete {
+    display: flex;           /* tout sur une ligne */
+    align-items: center;     /* aligne verticalement */
+    justify-content: space-between; /* espace entre les éléments */
+    padding: 10px;
+    background-color: lightblue;
 }
 .block {
     width: calc(50% - 20px); /* chaque bloc prend la moitiÃ© de la largeur moins le gap */
@@ -9,7 +11,4 @@
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; /* inclut le padding dans la largeur */
-}
-.loupe {
-    width: 100%;
 }
