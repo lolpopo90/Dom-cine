@@ -7,7 +7,7 @@
 }
 .block {
     width: calc(50% - 20px); /* chaque bloc prend la moitiÃ© de la largeur moins le gap */
-    background: rgba(15, 17, 138, 0.671);
+    background: #191970;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; /* inclut le padding dans la largeur */
