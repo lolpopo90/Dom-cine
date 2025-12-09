@@ -1,3 +1,4 @@
 function recherche(){
-    alert("ca marche")
+    text = document.getElementById("Recherche").value ;
+    alert(text)
 }
