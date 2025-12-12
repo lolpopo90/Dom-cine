@@ -1,14 +1,31 @@
 .entete {
-    display: flex;           /* tout sur une ligne */
-    align-items: center;     /* aligne verticalement */
-    justify-content: space-between; /* espace entre les éléments */
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Évite l'étirement */
+    gap: 30%; /* Espacement fixe  entre les éléments */
     background-color: lightblue;
-}
+}   
 .block {
-    width: calc(50% - 20px); /* chaque bloc prend la moitiÃ© de la largeur moins le gap */
+    width: 50%; 
     background: #191970;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; /* inclut le padding dans la largeur */
 }
+.body{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 15px;
+    background-color: lightblue;
+}
+.image_rangement {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.image_rangement img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
