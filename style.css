@@ -6,10 +6,10 @@
     background-color: lightblue;
 }   
 .block {
-    width: 50%; 
+    width: 95%; 
     background: #191970;
-    padding: 20px;
-    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     box-sizing: border-box; /* inclut le padding dans la largeur */
 }
 .body{
@@ -25,7 +25,7 @@
     padding: 20px;
 }
 .image_rangement img {
-    width: 100%;
+    width: 95%;
     height: auto;
     display: block;
   }
