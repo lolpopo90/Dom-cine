@@ -1,13 +1,36 @@
 body{
     background: #b9b9ff;
 }
-.texte{
-    font-family: "Courier New";
-}
+
 .entete {
-    display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(10%,1fr));
-} 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f5f5f5;   /* couleur du rectangle */
+    border-radius: 20px;         /* angles arrondis */
+    padding: 15px 25px;          /* espace intérieur */
+    margin: 20px;
+}
+
+.entete img{
+    position: absolute;
+    left: 40px;
+}
+.entete .recherche {
+    position: absolute;
+    left: 1px;
+}
+
+.entete .recherche {
+    left: 60px; /* espace après l’icône */
+}
+
+.entete h1 {
+    margin: 0;
+    color: #191970;
+}
+
 .bas_de_page{
     width: 100%;
     padding-bottom: 20px;
@@ -30,6 +53,11 @@ body{
     gap: 20px;
     padding: 20px;
 }
+.image_rangement figcaption {
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
 .image_rangement img {
     width: 95%;
     height: auto;
