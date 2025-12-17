@@ -1,22 +1,28 @@
-.entete {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Évite l'étirement */
-    gap: 30%; /* Espacement fixe  entre les éléments */
-    background-color: lightblue;
-}   
-.block {
-    width: 95%; 
-    background: #191970;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-sizing: border-box; /* inclut le padding dans la largeur */
+body{
+    background: #b9b9ff;
 }
-.body{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 15px;
-    background-color: lightblue;
+.texte{
+    font-family: "Courier New";
+}
+.entete {
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(10%,1fr));
+} 
+.bas_de_page{
+    width: 100%;
+    padding-bottom: 20px;
+    background: #b9b9ff;
+}
+.block {
+    background: #a1a1f1;
+    margin-left: 5%;
+    width: 90%; 
+}
+.CouleurFondConteneur{ 
+    background-color: #b9b9ff;
+}
+.recherche{
+    width: 10%;
 }
 .image_rangement {
     display: grid;
@@ -29,3 +35,13 @@
     height: auto;
     display: block;
   }
+.image_page{
+    top: 40px;
+    width: 25%;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+#image{
+    
+}
