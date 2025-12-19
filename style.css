@@ -71,7 +71,7 @@ body{
 
 .image_page {
     width: 200px; /* largeur de l'image */
-    height: auto; /* garde les proportions */
+    height: 400px; /* garde les proportions */
 }
 
 .video_page {
