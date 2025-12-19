@@ -7,9 +7,11 @@ function recherche(){
             alert("il n'y as pas votre film =(")
         }
         else{
-            for(let films of liste_filmsCommencantPar){
-                
-            }
+            let images = document.querySelectorAll('#image');   
+            // }for(let films of liste_filmsCommencantPar){}
+            document.querySelectorAll('#image').forEach(image => {
+                console.log(image.id); // Affiche l'ID de chaque image
+            });            
         }
     } 
 }
