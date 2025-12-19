@@ -7,7 +7,9 @@ function recherche(){
             alert("il n'y as pas votre film =(")
         }
         else{
-            for
+            for(let films of liste_filmsCommencantPar){
+                
+            }
         }
     } 
 }
