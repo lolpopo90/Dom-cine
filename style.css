@@ -63,13 +63,18 @@ body{
     height: auto;
     display: block;
   }
-.image_page{
-    top: 40px;
-    width: 25%;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.ConteneurPage {
+    display: flex;
+    gap: 20px; /* espace entre image et vidéo */
+    align-items: flex-start; /* aligne le haut des éléments */
 }
-#image{
-    
+
+.image_page {
+    width: 200px; /* largeur de l'image */
+    height: auto; /* garde les proportions */
+}
+
+.video_page {
+    width: 560px; /* largeur de la vidéo */
+    height: 400px; /* hauteur fixe */
 }
