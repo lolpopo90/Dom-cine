@@ -70,8 +70,8 @@ body{
 }
 
 .image_page {
-    width: 200px; /* largeur de l'image */
-    height: 400px; /* garde les proportions */
+    width: 300px; /* largeur de l'image */
+    height: auto; /* longueur de l'image */
 }
 
 .video_page {
