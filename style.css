@@ -39,6 +39,7 @@ body{
     background: #a1a1f1;
     margin-left: 5%;
     width: 90%; 
+    text-align: center;
 }
 .CouleurFondConteneur{ 
     background-color: #b9b9ff;
@@ -71,11 +72,13 @@ body{
 .image_page {
     width: 300px; /* largeur de l'image */
     height: auto; /* longueur de l'image */
-    margin-left:10%;
+    margin-left:0%;
+    left:15%;
 }
 
 .video_page {
     width: 560px; /* largeur de la vidéo */
     height: 400px; /* hauteur fixe */
+    right:15%;
 }
 
