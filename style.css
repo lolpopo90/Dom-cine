@@ -14,21 +14,20 @@ body{
 }
 
 .entete img{
-    position: absolute;
-    left: 40px;
+    position:absolute ;
+    left: 17%;
 }
 .entete .recherche {
     position: absolute;
-    left: 1px;
-}
-
-.entete .recherche {
-    left: 60px; /* espace après l’icône */
+    left: 5%; /* espace après l’icône */
 }
 
 .entete h1 {
     margin: 0;
     color: #191970;
+}
+.entete h2{
+    margin-left:680%;
 }
 
 .bas_de_page{
@@ -72,9 +71,11 @@ body{
 .image_page {
     width: 300px; /* largeur de l'image */
     height: auto; /* longueur de l'image */
+    margin-left:10%;
 }
 
 .video_page {
     width: 560px; /* largeur de la vidéo */
     height: 400px; /* hauteur fixe */
 }
+
