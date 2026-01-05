@@ -63,6 +63,9 @@ body{
     height: auto;
     display: block;
   }
+.image_rangement > div {
+    display: block;
+}
 .ConteneurPage {
     display: flex;
     gap: 20px; /* espace entre image et vidéo */

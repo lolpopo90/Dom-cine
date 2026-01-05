@@ -1,15 +1,16 @@
 function recherche(){
-    let liste_film = ["les 4 fantastiques","a contre sens","all the devils are here","bad guys 2","black phone 2","caramelo","frankenstein","french lover","G.O.A.T","good boy","une journée incontournable","jurassic park","jurassic park 2","jurassic park 3","jurassic world","jurassic world 2","les intrus chapitre 2","marche ou crève","mcwalter","plays dirty","roofman","superman","tron ares","une bataille après l'autre","five nigth at freddy's 2","zootopie 2","zootopie","pirates des caraïbes","guerre civil","lego movie"]
-    let recherche_film = document.getElementById("Recherche").value 
-    if(recherche_film !== "" ){
-        let liste_filmsCommencantPar = liste_film.filter(film => film.toLowerCase().startsWith(recherche_film.toLowerCase()));
-        if(liste_filmsCommencantPar == ""){
-            alert("il n'y as pas votre film =(")
+    let recherche_film = document.getElementById("Recherche").value.toLowerCase().trim();// tolowercase cela met toute en minuscule et trim enleve les espace
+    
+    // Récupérer tous les divs contenant les films
+    let films = document.querySelectorAll('.image_rangement > div'); // je creer une liste avec toute les div qu'il y a dans la div avec la classe image_rangement
+    
+    films.forEach(film => { // Pour chaque div je fait tel action
+        let titre = film.querySelector('figcaption').textContent.toLowerCase();// Récupérer le texte du figcaption (titre du film)
+        // Afficher ou masquer selon si le titre commence par la recherche
+        if(recherche_film === "" || titre.startsWith(recherche_film)){ // les 2 barep parallele veut dire "OU"
+            film.style.display = "block";//on decide de laisser afficher la div car soit la liste est vide donc on affiche tout soit on afiche car elle commence par ce qu'il y a dans la recherche
+        } else {
+            film.style.display = "none";// on decide de cacher la div du film
         }
-        else{
-            let images = document.querySelectorAll('.image_page');
-            images.forEach(images => {alert(images.src); 
-            });      
-        }
-    } 
+    });
 }
