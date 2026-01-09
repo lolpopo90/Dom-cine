@@ -49,9 +49,10 @@ body{
 /* RANGEMENT POUR LES IMAGE ET LES TITRE DANS L'ACCUEIL */
 .image_rangement {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+    gap: 5px;
+    margin-left: 35px;
+    padding-top: 20px;
 }
 .image_rangement figcaption {
     font-family: "Courier New", monospace;
@@ -60,7 +61,7 @@ body{
 
 .image_rangement img {
     width: 190px;
-    height: 275px;
+    height: 260px;
     display: block;
   }
 .image_rangement > div {
