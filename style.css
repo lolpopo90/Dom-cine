@@ -53,6 +53,7 @@ body{
     gap: 5px;
     margin-left: 35px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 .image_rangement figcaption {
     font-family: "Courier New", monospace;
@@ -66,6 +67,26 @@ body{
   }
 .image_rangement > div {
     display: block;
+}
+/* CREATION DU RECTANGLE QUI CONTIENT LE TOUT */
+.block_page {
+    background: #a1a1f1;
+    margin-left: 5%;
+    width: 90%;
+    padding-top:10px ; 
+    text-align: center;
+}
+/* ENCADRER TITRE FLMS */
+.titre_encadrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height:100px;
+    background-color: #f5f5f5;   /* couleur du rectangle */
+    border-radius: 20px;         /* angles arrondis */
+    padding: 15px 25px;          /* espace intérieur */
+    margin: 20px;
 }
 /* RANGEMENT DES IMAGES DES PAGES */
 .ConteneurPage {
