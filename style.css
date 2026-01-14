@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 .CouleurFondConteneur{ 
-    background-color: #b9b9ff;
+    background-color: #b8b8ff;
 }
 
 /* RANGEMENT POUR LES IMAGE ET LES TITRE DANS L'ACCUEIL */
@@ -97,6 +97,17 @@ body{
     color: black;  /* → changer la couleur */
     font-family: Impact, sans-serif;  /* → changer la police */
 }
+
+
+.ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100px;
+    background-color: #a1a1f1;
+}
+
 /* RANGEMENT DES IMAGES DES PAGES */
 .ConteneurPage {
     display: flex;
@@ -141,3 +152,19 @@ body{
 .entete_page h2{
     margin-left:680%;
 }
+.C2etoiles{
+    display: inline-block;
+    cursor: pointer;
+  }
+  .C2etoiles:hover{
+    background: green;
+  }
+  .C2etoiles div{
+    display: inline-block;
+    padding: 5px;
+  }
+  .C2etoiles div::after{
+    content:"\002605"; /* une étoile en Unicode */
+    color: yellow;
+  }
+  
