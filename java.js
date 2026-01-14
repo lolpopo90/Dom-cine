@@ -14,3 +14,8 @@ function recherche(){
         }
     });
 }
+function ilann(){
+    document.images['tde'].addEventListener("click",function(){
+	this.src= this.src.search("change")!=-1 ? "etoile_vide.jpg" : "etoile.png";
+    },false)
+}
