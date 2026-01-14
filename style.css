@@ -99,7 +99,7 @@ body{
 }
 
 
-.ligne{
+.lignePage{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,10 @@ body{
     height:auto;
     background-color: #a1a1f1;
 }
-
+.lignePage .durer{
+    font-weight: bold;
+    margin:auto 100px
+}
 /* RANGEMENT DES IMAGES DES PAGES */
 .ConteneurPage {
     display: flex;
@@ -167,3 +170,8 @@ body{
     content:"\002605"; /* une étoile en Unicode */
     color: yellow;
   }
+.tde{
+    width: 50px; /* largeur de la vidéo */
+    height: 50px; /* hauteur fixe */
+    
+}
