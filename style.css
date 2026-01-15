@@ -90,7 +90,8 @@ body{
     padding: 15px 25px;          /* espace intérieur */
     margin: 20px auto;
 }
-/* TITRE FORME */
+
+/* TITRE/INFO(durer realisateyr) FORME */
 .titre_page{
     font-size: 50px;
     text-decoration: underline; /* →surligner */
@@ -101,8 +102,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-    height:auto;
+    width: 70%;
+    height:50px;
     background-color: #f5f5f5;   /* couleur du rectangle */
     border-radius: 20px;         /* angles arrondis */
     margin: 20px auto;
@@ -155,8 +156,9 @@ body{
 .entete_page h2{
     margin-left:680%;
 }
-.tde{
-    width: 50px; /* largeur de la vidéo */
-    height: 50px; /* hauteur fixe */
+/* ETOILE */
+.etoile{
+    width: 50px; 
+    height: 50px; 
     
 }
