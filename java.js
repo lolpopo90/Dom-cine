@@ -18,13 +18,13 @@ function etoiles1(){
     let etoile1 = document.getElementById("etoile1");
     etoile1.src = "../Image/etoile_pleine.png";
     let etoile2 = document.getElementById("etoile2");
-    etoile2.src = "../etoile_vide.png";
+    etoile2.src = "../Image/etoile_vide.png";
     let etoile3 = document.getElementById("etoile3");
-    etoile3.src = "../etoile_vide.png";
+    etoile3.src = "../Image/etoile_vide.png";
     let etoile4 = document.getElementById("etoile4");
-    etoile4.src = "../etoile_vide.png";
+    etoile4.src = "../Image/etoile_vide.png";
     let etoile5 = document.getElementById("etoile5");
-    etoile5.src = "../etoile_vide.png";
+    etoile5.src = "../Image/etoile_vide.png";
 }
 
 function etoiles2(){
@@ -33,11 +33,11 @@ function etoiles2(){
     let etoile2 = document.getElementById("etoile2");
     etoile2.src = "../Image/etoile_pleine.png";
     let etoile3 = document.getElementById("etoile3");
-    etoile3.src = "../etoile_vide.png";
+    etoile3.src = "../Image/etoile_vide.png";
     let etoile4 = document.getElementById("etoile4");
-    etoile4.src = "../etoile_vide.png";
+    etoile4.src = "../Image/etoile_vide.png";
     let etoile5 = document.getElementById("etoile5");
-    etoile5.src = "../etoile_vide.png";
+    etoile5.src = "../Image/etoile_vide.png";
 }
 
 function etoiles3(){
@@ -48,9 +48,9 @@ function etoiles3(){
     let etoile3 = document.getElementById("etoile3");
     etoile3.src = "../Image/etoile_pleine.png";
     let etoile4 = document.getElementById("etoile4");
-    etoile4.src = "../etoile_vide.png";
+    etoile4.src = "../Image/etoile_vide.png";
     let etoile5 = document.getElementById("etoile5");
-    etoile5.src = "../etoile_vide.png";
+    etoile5.src = "../Image/etoile_vide.png";
 }
 
 function etoiles4(){
@@ -63,7 +63,7 @@ function etoiles4(){
     let etoile4 = document.getElementById("etoile4");
     etoile4.src = "../Image/etoile_pleine.png";
     let etoile5 = document.getElementById("etoile5");
-    etoile5.src = "../etoile_vide.png";
+    etoile5.src = "../Image/etoile_vide.png";
 }
 
 function etoiles5(){
